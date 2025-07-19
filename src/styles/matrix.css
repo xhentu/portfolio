@@ -1,0 +1,43 @@
+/* .matrix-text {
+  display: inline-block;
+  color: cornflowerblue;
+  font-family: 'Quicksand', 'Rubik', 'Nunito', system-ui, sans-serif;
+  font-size: 2rem;
+  cursor: default;
+  user-select: none;
+  letter-spacing: 2px;
+} */
+
+.matrix-text span {
+  transition: all 0.2s ease;
+}
+.matrix-text {
+  display: inline-block;
+  color: #cceeff;
+  font-size: 20rem;
+  cursor: default;
+  user-select: none;
+  letter-spacing: 2px;
+
+  text-shadow: 
+    0 0 5px #cceeff,
+    0 0 10px #99ccff,
+    0 0 20px #66bbee;
+}
+
+.matrix-text-wrapper {
+  display: block;
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal; /* allow line breaking */
+}
+
+.matrix-paragraph {
+  margin-bottom: 1rem;
+  /* line-height: 1; */
+}
+
+.matrix-word {
+  display: inline-block;
+  white-space: pre; /* allow spacing but still wrap */
+}

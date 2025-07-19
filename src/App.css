@@ -1,0 +1,14 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /* padding-bottom: 100px; */
+}
+
+.border {
+  border: 1px solid red;
+  width: 500px;
+  height: 1500px;
+  position: absolute;
+  overflow: hidden;
+}
