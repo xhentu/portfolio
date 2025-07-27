@@ -65,7 +65,7 @@
 //   );
 // }
 
-import MatrixText from "./matrixText";
+import MatrixText from "./MatrixText";
 import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
