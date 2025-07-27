@@ -2,7 +2,7 @@
 import "../styles/TerminalContainer.css";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
-import MatrixText from "./matrixText";
+import MatrixText from "./MatrixText";
 
 export default function TerminalBox({ title, items, onSelect, from = "left" }) {
   const { ref, inView } = useInView({ threshold: 0.3, rootMargin: "-20% 0px", triggerOnce: false });

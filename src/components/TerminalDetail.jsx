@@ -1,6 +1,6 @@
 import "../styles/TerminalContainer.css";
 import { useInView } from "react-intersection-observer";
-import MatrixText from "./matrixText";
+import MatrixText from "./MatrixText";
 
 export default function TerminalDetail({ content, from = "right" }) {
   const { ref, inView } = useInView({
