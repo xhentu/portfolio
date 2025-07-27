@@ -21,7 +21,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "../styles/clipProfile.css";
 import profileImg from "/profile.jpg";
-import MatrixText from "./matrixText";
+import MatrixText from "./MatrixText";
 
 export default function ClipProfile() {
   const { ref, inView } = useInView({
